@@ -11,7 +11,6 @@
 
     <link rel="icon" type="image/x-icon" href="img\favicon.png">
     <link rel="stylesheet" href="./css/styles.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
@@ -184,14 +183,14 @@
                 </div>
                 <div
                     class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-3 d-flex justify-content-center align-items-center">
-                    <div class="toast" data-autohide="false">
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
                         <div class="toast-header">
-                            <strong> Licznik odwiedzin strony: </strong>
+                            <strong>Licznik odwiedzin strony:</strong>
                         </div>
                         <div class="toast-body">
-                            <!-- <?php echo $_SESSION['liczbaOdwiedzin']; ?> wyświetleń<br> -->
-                            <button type="button" class="btn btn-success me-2 my-2" data-dismiss="toast"
-                                aria-label="Close"> Zamknij </button>
+                            123 odwiedzin<br>
+                            <button type="button" class="btn btn-success me-2 my-2" data-bs-dismiss="toast"
+                                aria-label="Close">Zamknij</button>
                         </div>
                     </div>
                 </div>
