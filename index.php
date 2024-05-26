@@ -17,9 +17,10 @@
         integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://kit.fontawesome.com/c1354519af.js" crossorigin="anonymous"></script>
     <script src="js\showToast.js"></script>
+    <script src="js\setCurrentSubpage.js"></script>
     <?php include 'php\pobierzLiczbaOdwiedzin.php'; ?>
 </head>
 
@@ -45,7 +46,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img id="logo-conf" src="img/logo_icon.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -54,12 +55,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-conf">
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="index.html">Europa</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="picture.html">Azja</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="info.html">Afryka</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="cone.html">Australia</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="heaters.html">Ameryka Północna</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="heaters.html">Ameryka Południowa</a>
+                    <a type="nav-link" class="btn btn-success me-2 my-2" href="index.php">Europa</a>
+                    <a type="nav-link" class="btn btn-success me-2 my-2" href="azja.php">Azja</a>
+                    <a type="nav-link" class="btn btn-success me-2 my-2" href="afryka.php">Afryka</a>
+                    <a type="nav-link" class="btn btn-success me-2 my-2" href="australia.php">Australia</a>
+                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ameryka_polnocna.php">Ameryka
+                        Północna</a>
+                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ameryka_poludniowa.php">Ameryka
+                        Południowa</a>
                 </div>
             </div>
     </nav>

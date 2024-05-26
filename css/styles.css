@@ -80,6 +80,13 @@ footer.bg-dark {
     color: white !important;
 }
 
+.navbar-nav a.active {
+    background-color: #cccccc !important;
+    /* Kolor wyszarzony */
+    color: #000 !important;
+    /* Kolor tekstu */
+}
+
 .picture-text {
     font-size: large;
     font-family: 'Poppins', sans-serif;
