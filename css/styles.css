@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background: url('../img/background_img.jpeg') center center/cover no-repeat;*/
+}
+
+.example-background {
+    background-image: url('../img/widok_norwegia.jpg');
+    background-size: cover;
+    /* Dopasowuje obraz do rozmiaru elementu */
+    background-position: center;
+    /* Centruje obraz w elemencie */
+    background-repeat: no-repeat;
+    /* Zapobiega powtarzaniu obrazu */
+    height: 400px;
+    /* Wysokość kontenera z tłem */
+    display: flex;
+    align-items: center;
+    /* Centruje zawartość pionowo */
+    justify-content: center;
+    /* Centruje zawartość poziomo */
+    color: white;
+    /* Kolor tekstu */
+}
+
+.example-background h1 {
+    color: #00CC00;
+    font-weight: bold;
+    font-family: "Poetsen One", sans-serif;
+}
+
+footer.bg-dark {
+    background-color: #00CC00 !important;
+}
+
+.contact-info {
+    width: 100%;
+}
+
+.mynav {
+    background-color: #00CC00;
+    color: lightgoldenrodyellow;
+}
+
+.mynav i {
+    padding: 10px;
+}
+
+
+#logo-conf {
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 110px;
+}
+
+.nav-conf button {
+    outline: none !important;
+    box-shadow: none !important;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.nav-conf button:hover {
+    background-color: #00CC00;
+    border-color: #006600;
+    color: white !important;
+}
+
+.picture-text {
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-article {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.welcome-article .picture {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.welcome-article img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9)
+}
+
+.picture hr {
+    margin-bottom: 20px;
+    color: #cd550000;
+    border: 3px solid;
+    width: 20%;
+}
+
+.line-footer {
+    width: 100px;
+    background-color: #00CC00;
+    height: 1.5px;
+}
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: whitesmoke;
+}
+
+.toast-header {
+    background-color: #00CC00 !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.toast-header strong {
+    color: whitesmoke !important;
+    font-weight: 700 !important;
+    padding: 3% !important;
+}
+
+.toast-body {
+    background-color: rgb(109, 109, 109);
+}
+
+.toast {
+    border-style: ridge !important;
+    border-width: 5px !important;
+    border-color: aqua !important;
+}
+
+.toast:hover {
+    border-color: red !important;
+    color: red !important;
+}
+
+@media (min-width: 992px) {
+    .welcome-article .picture {
+        width: 45%;
+        margin: auto auto;
+    }
+
+    .article-row {
+        display: flex;
+        margin: 30px auto;
+    }
+
+    .article-row:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+
+    .picture hr {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .picture hr {
+        margin-bottom: 50px;
+    }
+}
+
+.logo {
+    height: 40px;
+    margin-right: 40px;
+}
