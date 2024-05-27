@@ -23,6 +23,7 @@ function wyslijFormularz() {
         console.error("Wystąpił błąd podczas wysyłania żądania.");
     };
     xhr.send(daneFormularza);
+    document.getElementById("ksiega-wpis").reset();
     return false;
 }
 
