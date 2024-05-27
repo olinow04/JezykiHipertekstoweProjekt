@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll('.navbar-nav a');
     const currentLocation = location.pathname;
 
-    console.debug(currentLocation);
-
     for (const link of navLinks) {
 
         const linkPath = link.getAttribute('href');
