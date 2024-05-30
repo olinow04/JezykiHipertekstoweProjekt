@@ -17,7 +17,7 @@
         integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://kit.fontawesome.com/c1354519af.js" crossorigin="anonymous"></script>
     <script src="js\showToast.js"></script>
     <script src="js\setCurrentSubpage.js"></script>
@@ -25,6 +25,52 @@
 </head>
 
 <body>
+
+    <div class="modal fade" id="fullSizeImageModal" tabindex="-1" aria-labelledby="fullSizeImageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fullSizeImageModalLabel">Obrazek w pełnej rozdzielczości</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/piltwickie_jeziora.jpg" class="img-fluid" alt="Obrazek w pełnej rozdzielczości">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fullSizeImageModal" tabindex="-1" aria-labelledby="fullSizeImageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fullSizeImageModalLabel">Obrazek w pełnej rozdzielczości</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Geirangerfjord.webp" class="img-fluid" alt="Obrazek w pełnej rozdzielczości">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fullSizeImageModal" tabindex="-1" aria-labelledby="fullSizeImageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fullSizeImageModalLabel">Obrazek w pełnej rozdzielczości</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/sarek.jpg" class="img-fluid" alt="Obrazek w pełnej rozdzielczości">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header class="navbar mynav">
         <div class="container text-center">
             <div class="row contact-info">
@@ -72,109 +118,116 @@
         <h1>Niezwykłe miejsca przyrodnicze</h1>
     </main>
 
-    <article class="welcome-article">
-        <div class="article-row">
-            <div class="picture">
-                <img src="img/piltwickie_jeziora.jpg" alt="">
-            </div>
-
-            <div class="picture">
-                <h4>Park Narodowy Plitwickie Jeziora, Chorwacja</h4>
+    <article class="welcome-article container">
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <img src="img/HaLong.jpg" class="img-fluid" alt="Zatoka Ha Long">
+                <h4>Zatoka Ha Long, Wietnam</h4>
                 <hr>
                 <p class="picture-text">
-                    Park Narodowy Jezior Plitwickich (Nacionalni Park Plitvička jezera) to jedna z najczęściej
-                    odwiedzanych atrakcji Chorwacji. Jeziora o niezwykłym kolorze i kaskady spadającej wody przyciągają
-                    rokrocznie około półtora miliona turystów. Obszar parku obejmuje szesnaście jezior krasowych o
-                    różnej wielkości. Są to zbiorniki wodne w obniżeniach powstałych w wyniku procesu rozpuszczania
-                    skał. Ze względu na różnice wysokości pomiędzy poszczególnymi jeziorami woda przelewa się
-                    widowiskowymi wodospadami.Tutejsze jeziora zachwycają również swoją barwą (turkusową lub zieloną).
-                    Uzależniona jest ona od związków chemicznych występujących w rozpuszczonych skałach, stopnia
-                    nasłonecznienia czy występującej roślinności.Charakterystyczne dla tego obszaru są również
-                    wodospady, w formie wąskich strug przebijających się przez progi z tufu. Największe tego rodzaju
-                    spadki wody to: Wielki Wodospad (Veliki Slap) i Wodospad Galovac (Galovački buk). Obszar Parku
-                    Narodowego Jezior Plitwickich wynosi ponad 296 kilometrów kwadratowych co czyni go jednym z
-                    największych obszarów chronionych na terenie kraju. Specyfika tutejszego świata roślin polega na
-                    występowaniu obok siebie gatunków charakterystycznych dla obszaru Morza Śródziemnego, ale też tych
-                    które porastają północ Europy. Ponad 70 gatunków to endemity (rosną tylko na tym obszarze)! Tutejsze
-                    lasy to głównie buki, świerki i jodły - najstarsze z drzew mają po kilkaset lat. Królestwo zwierząt
-                    jest również zróżnicowane. Począwszy od dużych drapieżników (niedźwiedzie brunatne czy wilki)
-                    poprzez węże, płazy czy liczne owady - możemy tu spotkać przedstawicieli wielu gromad czy rodzin.
-                    Nawet jeśli nie uda nam się zobaczyć salamandry czy jakiegoś ssaka, to dzięki przejrzystej wodzie z
-                    pewnością będziemy mogli dojrzeć liczne ryby. Najpopularniejsze tutejsze gatunki to: strzeble
-                    potokowe, pstrągi, klenie czy sprowadzone przez człowieka wzdręgi.
+                    Zatoka Ha Long w Wietnamie jest jednym z Siedmiu Cudów Świata. Znana z tysięcy wysepek krasowych,
+                    które tworzą niesamowity krajobraz. Jest to również dom dla
+                    różnorodnych gatunków flory i fauny. Zatoka Ha Long jest bez wątpienia obowiązkowym punktem podczas
+                    podróży po Wietnamie, nie bez kozery należy do zacnego grona obiektów na liście kulturowego
+                    dziedzictwa UNESCO. Skąpana w słońcu czy też spowita mistyczną mgłą wciąż będzie numerem jeden wśród
+                    azjatyckich pejzaży. Jak głosi legenda, w dawnych czasach Nefrytowy Cesarz wysłał na ziemię Matkę
+                    Smoka i jej dzieci, aby pomóc Wietnamczykom w walce z dzikimi najeźdźcami, przybywającymi z północy
+                    od strony morza. Matka Smok i jej dzieci, spopielili wrogów boskim ogniem i zasypali gigantycznymi
+                    szmaragdami, które utworzyły niepokonany mur obronny w morzu. Dzięki wsparciu smoków wrogowie
+                    zostali obróceni w proch, a na tej ziemi zapanował pokój.
+                    Po tysiącu lat szmaragdowy mur zmienił się w wysepki o różnych rozmiarach i kształtach. Smoki nie
+                    wróciły do nieba, zostały z mieszkańcami Wietnamu, by im pomagać w codziennym życiu. Dlatego,
+                    wdzięczni wieśniacy na ich cześć ochrzcili zatokę nazwą "Lądującego smoka". Wietnamczycy wierzą, że
+                    ich naród pochodzi również od smoków. Legenda o smokach, które wylądowały w zatoce pobudza
+                    wyobraźnię podróżnika,
+                    wapienne formacje wyrastające nad taflę wody wyglądają naprawdę jak fantastyczne twory z innej
+                    planety. Rejs po spokojnych wodach zatoki Ha Long pośród wapiennych wysepek pozwoli nam zaobserwować
+                    nie tylko malownicze krajobrazy ale także tradycyjne życie Wietnamczyków.
                 </p>
             </div>
-
-        </div>
-
-        <div class="article-row">
-            <div class="picture">
-                <img src="img/Geirangerfjord.webp" alt="">
-            </div>
-
-            <div class="picture">
-                <h4>Geirangerfjord, Norwegia </h4>
+            <div class="col-md-6">
+                <img src="img/bajkal.jpg" class="img-fluid" alt="Jezioro Bajkał">
+                <h4>Jezioro Bajkał, Rosja</h4>
                 <hr>
                 <p class="picture-text">
-                    Jeden z najpiękniejszych fiordów Norwegii, słynący z głębokich wód, stromych klifów i licznych
-                    wodospadów, takich jak Wodospady Siedmiu Sióstr. Geirangerfjord to prawdziwy klejnot wśród
-                    Norweskich Fiordów. Geirangerfjord rozciąga się na długość ok. 15 kilometrów między miejscowościami
-                    Hellesylt oraz Geiranger. Jest on odnogą fiordu Storfjorden, który wpada do morza. Geirangerfjord ma
-                    od zaledwie od 600 do 1500 metra szerokości. Natomiast góry go otaczające mają aż 1500 metrów
-                    wysokości, przez co patrząc na niego, możemy poczuć się, jakbyśmy wpatrywali się w namalowany obraz.
-                    W 2005 roku został wpisany na Listę Światowego Dziedzictwa UNESCO.
-                    Patrząc na fiord z lotu ptaka przypomina on literę „S”.
-                    Podziwianie fiordu najlepiej zacząć od rejsu stateczkiem z miejscowości Hellesylt do Geiranger, rejs
-                    daje wspaniałe możliwości do podziwiania stromych zboczy otaczających fiord wraz z licznymi
-                    wodospadami
-                    spływającymi z ich zboczy. Na szczególną uwagę zasługują wodospady: De Syv Søstre (Siedem Sióstr),
-                    Frairen (Zalotnik) i Brudesløret (Ślubny Welon). Geirangerfjord jest na tyle głęboki, że mogą do
-                    niego wpływać pełnomorskie statki. Latem prawie każdego dnia można spotkać przycumowany jakiś statek
-                    wycieczkowy. Stosunkowo niedawno bo jeszcze przed wojną w farmach umiejscowionych na stromych,
-                    wąskich występach mieszkali ludzie. Będąc w Geiranger często słyszy się historie o dzieciach
-                    przywiązywanych do palików, aby podczas zabawy nie spadły z urwiska. Ostatni mieszkańcy tych farm
-                    wyprowadzili się stąd dopiero w 1961 roku. Najlepszy widok na fiord rozpościera się ze szczytu góry
-                    Dalsnibba (blisko 1500 m wysokości) górującej nad całą okolicą.
-
+                    Bajkał jest według geologów najstarszym jeziorem na świecie - jego wiek szacuje się na 25 mln lat.
+                    Ze względu na swoje pochodzenie Bajkał klasyfikowany jest jako jezioro tektoniczne. Ze względu na
+                    przesuwanie się struktur geologicznych jezioro ulega ciągłym przemianom, zapadając się bądź
+                    wypiętrzając w niektórych rejonach. Maksymalna głębokość jeziora Bajkał wynosi 1642 m, co czyni je
+                    najgłębszym jeziorem na Ziemi. Z uwagi na swoją objętość rzędu 23 tys. km³ zbiornik magazynuje 1/5
+                    światowych zasobów niezamarzniętej słodkiej wody. Co ciekawe, jest ona tak czysta, że można pić ją
+                    wprost z jeziora. Niekiedy też poprzez krystaliczną taflę wody widać dno położone kilkaset metrów
+                    niżej. Jest to zasługa widłonogów z gatunku Epischura baikalensis, które odfiltrowują i usuwają
+                    zanieczyszczenia. Do jeziora wpływa aż 336 rzek, a wypływa z niego tylko jedna - Angara, prawy
+                    dopływ Jeniseju. Niepozorne widłonogi odgrywają zatem kluczową rolę w samooczyszczaniu się akwenu.
+                    Bajkał od 1996 roku jest wpisany na listę światowego dziedzictwa UNESCO, lecz jego ekosystemowi i
+                    tak nie udaje się uniknąć negatywnych skutków działalności człowieka. Z wody co roku wyławiane są
+                    zatopione kutry rybackie i samochody. Do jeziora nierzadko trafia także zużyte paliwo z silników.
+                    Jezioro słynie również z unikatowej flory i fauny, której symbolem jest nerpa bajkalska - foka
+                    żyjąca wyłącznie w tych wodach. Łącznie w Bajkale zanotowano około 2630 gatunków roślin i zwierząt,
+                    z których ponad połowę stanowią endemity, czyli organizmy niewystępujące nigdzie indziej na świecie.
                 </p>
             </div>
         </div>
 
-        <div class="article-row">
-            <div class="picture">
-                <img src="img\sarek.jpg" alt="">
-            </div>
-
-            <div class="picture">
-                <h4>Park Narodowy Sarek, Szwecja </h4>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <img src="img/zhangjiajie.jpg" class="img-fluid" alt="Sarek">
+                <h4>Narodowy Park Zhangjiajie, Chiny</h4>
                 <hr>
                 <p class="picture-text">
-                    Park Narodowy Sarek, choć jest najstarszym oficjalnie utworzonym parkiem narodowym w całej Europe,
-                    to spośród innych wyróżnia się zdecydowanie tym, że człowiek ma niewielki wpływ na jego obecny
-                    krajobraz. Na wyznaczonym w 1909 roku obszarze ciężko bowiem zobaczyć jakąkolwiek działalność
-                    antropogeniczną. Oprócz określonych szlaków turystycznych, po których można się poruszać, znajduje
-                    się tam niewielka liczba dopasowanych do panoramy parku schronisk. Jest to wręcz idealnie
-                    miejsce (w skali całej Europy) dla osób, które potrzebują odpocząć od zgiełku cywilizacji i nasycić
-                    się czystym pięknem przyrody. Przede wszystkim jest to jednak prawdziwy raj dla miłośników
-                    wspinaczki górskiej. Na terenie parku narodowego znajduje się ponad dwieście szczytów o wysokości
-                    powyżej 1800 m n.p.m., co jeśli dodamy niesamowity krajobraz rozciągający się z wierzchołków
-                    może przynieść niezapomniane wrażenia i doświadczenia dla tych, którzy pokonają wysokości. Najwyższa
-                    z gór Mount Sarek, liczy sobie 2089 m n.p.m. i jest drugim najwyższym szczytem górskim w Szwecji.
-                    Widok z góry na dolinę Rapadalen musi, bez wątpienia, zapierać dech w piersiach. Jedną z głównych
-                    przyczyn, dla których turyści postanawiają przyjechać na północ Skandynawii jest malownicza zorza
-                    polarna. Z terenu Parku Narodowego Sarek bez najmniejszych problemów, zwłaszcza podczas nocnego
-                    biwakowania, można dostrzec to osobliwe i niesamowite dzieło natury. Wrażenia, jakie zostawi po
-                    sobie ten świetlny spektakl na niebie na pewno pozostaną z turystą do końca życia…
-                    Park Narodowy Sarek graniczy z dwoma innymi parkami narodowymi Szwecji od zachodu z Parkiem
-                    Narodowym Padjelanta, a od północy z Stora Sjöfallet. Jeśli więc dla kogoś sam park Sarek byłby
-                    niewystarczający dla przeżycia przygody, to tuż obok dostępne do eksploracji są dwa kolejne!
-                    Zdecydowanie najpiękniejszą porą roku do odwiedzenia wspomnianego obszaru jest zima, jednak trzeba
-                    mieć na uwadze zwiększone ryzyko lawin śnieżnych. Dla osób niedoświadczonych zwiedzanie parku zaleca
-                    się w towarzystwie przewodnika, a naprawdę warto odwiedzić tę część Europy!
+                    Narodowy Park Zhangjiajie to jedno z najbardziej oszałamiających miejsc przyrodniczych w Chinach i
+                    na świecie. Znany jest głównie ze swoich niezwykłych formacji skalnych, gęstych lasów, malowniczych
+                    klifów i urokliwych wąwozów. Park Narodowy Zhangjiajie powstał w 1982 r. jako pierwszy leśny park
+                    narodowy w Chinach. Był to rok uchwalenia nowej, obowiązującej do dzisiaj konstytucji Chińskiej
+                    Republiki Ludowej. Na państwo nałożono wtedy m.in. obowiązek ochrony środowiska naturalnego. A
+                    Zhangjiajie, jako nieziemski wręcz, unoszący się niemal w powietrzu twór, został poddany ochronie
+                    jako pierwszy. W 1992 r. park i cały okoliczny region, czyli rezerwat przyrody Wulingyuan, zostały
+                    wpisane na Listę Światowego Dziedzictwa UNESCO. Niezwykły krajobraz tworzą tam wysokie na od 200 do
+                    nawet 800 metrów wąskie, zaokrąglone szczyty piaskowców. Park jest znany z unikalnych formacji
+                    skalnych, które zostały wykształcone przez tysiące lat erozji wietrznej i deszczowej. Tymczasem
+                    szczyty skał i gór, często otulone gęstymi chmurami, tworzą magiczną,
+                    tajemniczą atmosferę. Chmury opadają i podnoszą się kilkukrotnie w ciągu dnia, dzięki czemu możemy
+                    podziwiać zmieniający się, wspaniały krajobraz o wiele ciekawszy niż podczas typowo słonecznego
+                    dnia, na który też możemy trafić. Tutejsza słynna góra Tianmen wygląda wtedy, jakby dosłownie
+                    unosiła się w powietrzu. Park jest również domem dla licznych wąwozów, kaskad wodnych i malowniczych
+                    rzek, co dodaje jeszcze więcej uroku temu miejscu. Wielu odwiedzających decyduje się na rejs łodzią
+                    po rzece Baofeng, aby podziwiać panoramę skalnych formacji. Park Narodowy Zhangjiajie przyciąga
+                    setki tysięcy turystów rocznie. Istnieje wiele szlaków turystycznych, które umożliwiają zwiedzanie
+                    tego niezwykłego terenu pieszo lub za pomocą kolei linowej.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <!-- You can add another image and text here to make it symmetrical -->
+                <img src="img/jeju.jpg" class="img-fluid" alt="Another Image">
+                <h4>Wyspa Jeju, Korea Południowa</h4>
+                <hr>
+                <p class="picture-text">
+                    Wyspa Jeju, znana również jako Jeju-do, to jedna z najbardziej popularnych destynacji turystycznych
+                    w Korei Południowej. Jeju-do znajduje się na południowym wybrzeżu Korei Południowej, otoczona Morzem
+                    Japońskim. Jest to największa wyspa w Korei, o powierzchni około 1849 km². Wyspa Jeju ma łagodny
+                    klimat subtropikalny, co oznacza, że jest ona stosunkowo ciepła przez większą część roku. Zimy są
+                    łagodne, a lata gorące i wilgotne. Wyspa jest często nazywana „Wyspą Wiecznej Wiosny” ze względu na
+                    łagodny klimat przez większość roku. Jeju-do jest znana z pięknych krajobrazów, w tym z malowniczych
+                    plaż, wodospadów, wulkanów i pól lawowych. Jednym z najbardziej charakterystycznych miejsc jest
+                    Hallasan, najwyższy szczyt w Korei Południowej, który jest wulkanem uśpionym od około 5000 lat. Park
+                    Narodowy Hallasan jest popularnym miejscem dla turystów i miłośników trekkingu. Wyspa Jeju ma bogatą
+                    kulturę i historię. Jest znana z własnego dialektu, tradycyjnych strojów, muzyki i tańca. Można tam
+                    znaleźć również wiele zabytków, w tym grobowce z epoki brązu i kamienne budowle związane z historią
+                    wyspy. Wyspa Jeju została wpisana na Listę Światowego Dziedzictwa UNESCO w 2007 roku, co potwierdza
+                    jej znaczenie kulturowe i przyrodnicze. Wyspa Jeju ma dobrze rozwiniętą infrastrukturę turystyczną,
+                    w tym lotnisko, liczne hotele, restauracje i sklepy. Jeju-do jest popularnym celem podróży zarówno
+                    dla koreańskich, jak i zagranicznych turystów. Oferuje szeroki wybór atrakcji turystycznych, takich
+                    jak Park Rozrywki Lotte World, Park Trzech Wież oraz liczne plaże, w tym popularna plaża Hyeopjae.
+                    Wyspa jest również znana z produkcji mandarynek, które są popularnym pamiątkowym produktem dla
+                    odwiedzających. Transport publiczny na wyspie jest również dobrze zorganizowany, co ułatwia
+                    podróżowanie między różnymi atrakcjami.
                 </p>
             </div>
         </div>
     </article>
+
+
 
     <footer class="bg-dark">
         <div class="container text-center">

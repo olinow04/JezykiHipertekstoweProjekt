@@ -3,7 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    /*background: url('../img/background_img.jpeg') center center/cover no-repeat;*/
 }
 
 .example-background {
@@ -181,4 +180,50 @@ footer {
 .logo {
     height: 40px;
     margin-right: 40px;
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.carousel-control {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.carousel-control-icon {
+    font-size: 2rem;
+}
+
+.carousel-thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 60px;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.thumbnail.active {
+    border: 2px solid black;
+    opacity: 1;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.h4 {
+    padding: 10px;
 }
