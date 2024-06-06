@@ -9,9 +9,9 @@ if (!$conn) {
 
 // Dodanie wpisu do bazy danych
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $message = $_POST['message'];
+    $first_name = test_input($_POST['first_name']);
+    $last_name = test_input($_POST['last_name']);
+    $message = test_input($_POST['message']);
 
     $sql = "INSERT INTO goscie (first_name, last_name, message) VALUES ('$first_name', '$last_name', '$message')";
     $result = mysqli_query($conn, $sql); //wysłanie zapytania do bazy
@@ -20,6 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "success";
     }
+}
+function test_input($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
 }
 
 mysqli_close($conn);
