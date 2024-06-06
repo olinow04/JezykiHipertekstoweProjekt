@@ -19,10 +19,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
     <script src="https://kit.fontawesome.com/c1354519af.js" crossorigin="anonymous"></script>
-    <script src="js\showToast.js"></script>
-    <script src="js\setCurrentSubpage.js"></script>
-    <script src="js\handleForm.js"></script>
-    <?php include 'php\pobierzLiczbaOdwiedzin.php'; ?>
+    <script src="js/showToast.js"></script>
+    <script src="js/setCurrentSubpage.js"></script>
+    <script src="js/handleForm.js"></script>
+    <?php include 'php/pobierzLiczbaOdwiedzin.php'; ?>
 </head>
 
 <body>
