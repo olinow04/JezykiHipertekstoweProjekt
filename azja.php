@@ -17,7 +17,7 @@
         integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://kit.fontawesome.com/c1354519af.js" crossorigin="anonymous"></script>
     <script src="js\showToast.js"></script>
     <script src="js\setCurrentSubpage.js"></script>
@@ -25,51 +25,6 @@
 </head>
 
 <body>
-
-    <div class="modal fade" id="fullSizeImageModal" tabindex="-1" aria-labelledby="fullSizeImageModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="fullSizeImageModalLabel">Obrazek w pełnej rozdzielczości</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="img/piltwickie_jeziora.jpg" class="img-fluid" alt="Obrazek w pełnej rozdzielczości">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="fullSizeImageModal" tabindex="-1" aria-labelledby="fullSizeImageModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="fullSizeImageModalLabel">Obrazek w pełnej rozdzielczości</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="img/Geirangerfjord.webp" class="img-fluid" alt="Obrazek w pełnej rozdzielczości">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="fullSizeImageModal" tabindex="-1" aria-labelledby="fullSizeImageModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="fullSizeImageModalLabel">Obrazek w pełnej rozdzielczości</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="img/sarek.jpg" class="img-fluid" alt="Obrazek w pełnej rozdzielczości">
-                </div>
-            </div>
-        </div>
-    </div>
 
     <header class="navbar mynav">
         <div class="container text-center">
@@ -198,8 +153,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <!-- You can add another image and text here to make it symmetrical -->
-                <img src="img/jeju.jpg" class="img-fluid" alt="Another Image">
+                <img src="img/jeju.jpg" class="img-fluid" alt=" Wyspa Jeju">
                 <h4>Wyspa Jeju, Korea Południowa</h4>
                 <hr>
                 <p class="picture-text">

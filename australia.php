@@ -17,7 +17,7 @@
         integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://kit.fontawesome.com/c1354519af.js" crossorigin="anonymous"></script>
     <script src="js\showToast.js"></script>
     <script src="js\setCurrentSubpage.js"></script>
@@ -77,26 +77,46 @@
         <div class="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/piltwickie_jeziora.jpg" class="d-block w-100"
-                        alt="Park Narodowy Plitwickie Jeziora, Chorwacja">
+                    <img src="img/jezioro_hillier.jpg" class="d-block w-100 rounded border"
+                        alt="Jezioro Hillier, Wyspa Middle">
                     <div class="carousel-caption">
-                        <h4>Park Narodowy Plitwickie Jeziora, Chorwacja</h4>
+                        <h4>Jezioro Hillier, Wyspa Middle</h4>
                         <hr>
                         <p class="picture-text"></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Geirangerfjord.webp" class="d-block w-100" alt="Geirangerfjord, Norwegia">
+                    <img src="img/rafa_koralowa.jpg" class="d-block w-100 rounded border"
+                        alt="Wielka Rafa Koralowa, Morze Koralowe">
                     <div class="carousel-caption">
-                        <h4>Geirangerfjord, Norwegia</h4>
+                        <h4>Wielka Rafa Koralowa, Morze Koralowe</h4>
                         <hr>
                         <p class="picture-text"></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/sarek.jpg" class="d-block w-100" alt="Park Narodowy Sarek, Szwecja">
+                    <img src="img/whitsunday_wyspa.jpg" class="d-block w-100 rounded border"
+                        alt="Wyspa Whitsunday,  Morze Koralowe">
                     <div class="carousel-caption">
-                        <h4>Park Narodowy Sarek, Szwecja</h4>
+                        <h4>Wyspa Whitsunday, Morze Koralowe</h4>
+                        <hr>
+                        <p class="picture-text"></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/rzeka_margaret.webp" class="d-block w-100 rounded border"
+                        alt="Rzeka Margaret, Australia Zachodnia">
+                    <div class="carousel-caption">
+                        <h4>Rzeka Margaret, Australia Zachodnia</h4>
+                        <hr>
+                        <p class="picture-text"></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/orpheus.jpg" class="d-block w-100 rounded border"
+                        alt="Wyspa Orpheus, Wielka Rafa Koralowa">
+                    <div class="carousel-caption">
+                        <h4>Wyspa Orpheus, Wielka Rafa Koralowa</h4>
                         <hr>
                         <p class="picture-text"></p>
                     </div>
@@ -112,10 +132,16 @@
             </button>
         </div>
         <div class="carousel-thumbnails">
-            <img src="img/piltwickie_jeziora.jpg" class="thumbnail active" data-slide-to="0"
-                alt="Park Narodowy Plitwickie Jeziora, Chorwacja">
-            <img src="img/Geirangerfjord.webp" class="thumbnail" data-slide-to="1" alt="Geirangerfjord, Norwegia">
-            <img src="img/sarek.jpg" class="thumbnail" data-slide-to="2" alt="Park Narodowy Sarek, Szwecja">
+            <img src="img/jezioro_hillier.jpg" class="thumbnail active" data-slide-to="0"
+                alt="Jezioro Hillier, Wyspa Middle">
+            <img src="img/rafa_koralowa.jpg" class="thumbnail" data-slide-to="1"
+                alt="Wielka Rafa Koralowa, Morze Koralowe">
+            <img src="img/whitsunday_wyspa.jpg" class="thumbnail" data-slide-to="2"
+                alt="Wyspa Whitsunday,  Morze Koralowe">
+            <img src="img/rzeka_margaret.webp" class="thumbnail" data-slide-to="3"
+                alt="Rzeka Margaret, Australia Zachodnia">
+            <img src="img/orpheus.jpg" class="thumbnail" data-slide-to="4" alt="Wyspa Orpheus, Wielka Rafa Koralowa">
+
         </div>
     </article>
 

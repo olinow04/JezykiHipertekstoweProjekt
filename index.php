@@ -75,33 +75,43 @@
     <article class="welcome-article">
         <div class="article-row">
             <div class="picture">
-                <img src="img/piltwickie_jeziora.jpg" alt="">
+                <img src="img/piltwickie_jeziora.jpg" alt="Park Narodowy Plitwickie Jeziora, Chorwacja">
             </div>
 
             <div class="picture">
                 <h4>Park Narodowy Plitwickie Jeziora, Chorwacja</h4>
                 <hr>
                 <p class="picture-text">
-                    Park Narodowy Jezior Plitwickich (Nacionalni Park Plitvička jezera) to jedna z najczęściej
-                    odwiedzanych atrakcji Chorwacji. Jeziora o niezwykłym kolorze i kaskady spadającej wody przyciągają
-                    rokrocznie około półtora miliona turystów. Obszar parku obejmuje szesnaście jezior krasowych o
-                    różnej wielkości. Są to zbiorniki wodne w obniżeniach powstałych w wyniku procesu rozpuszczania
-                    skał. Ze względu na różnice wysokości pomiędzy poszczególnymi jeziorami woda przelewa się
-                    widowiskowymi wodospadami.Tutejsze jeziora zachwycają również swoją barwą (turkusową lub zieloną).
-                    Uzależniona jest ona od związków chemicznych występujących w rozpuszczonych skałach, stopnia
-                    nasłonecznienia czy występującej roślinności.Charakterystyczne dla tego obszaru są również
-                    wodospady, w formie wąskich strug przebijających się przez progi z tufu. Największe tego rodzaju
-                    spadki wody to: Wielki Wodospad (Veliki Slap) i Wodospad Galovac (Galovački buk). Obszar Parku
-                    Narodowego Jezior Plitwickich wynosi ponad 296 kilometrów kwadratowych co czyni go jednym z
-                    największych obszarów chronionych na terenie kraju. Specyfika tutejszego świata roślin polega na
-                    występowaniu obok siebie gatunków charakterystycznych dla obszaru Morza Śródziemnego, ale też tych
-                    które porastają północ Europy. Ponad 70 gatunków to endemity (rosną tylko na tym obszarze)! Tutejsze
-                    lasy to głównie buki, świerki i jodły - najstarsze z drzew mają po kilkaset lat. Królestwo zwierząt
-                    jest również zróżnicowane. Począwszy od dużych drapieżników (niedźwiedzie brunatne czy wilki)
-                    poprzez węże, płazy czy liczne owady - możemy tu spotkać przedstawicieli wielu gromad czy rodzin.
-                    Nawet jeśli nie uda nam się zobaczyć salamandry czy jakiegoś ssaka, to dzięki przejrzystej wodzie z
-                    pewnością będziemy mogli dojrzeć liczne ryby. Najpopularniejsze tutejsze gatunki to: strzeble
-                    potokowe, pstrągi, klenie czy sprowadzone przez człowieka wzdręgi.
+                    Park Narodowy Plitwickie Jeziora (Plitvička Jezera) to jeden z najpiękniejszych i najbardziej
+                    znanych parków narodowych w Chorwacji, a także wpisany na Listę Światowego Dziedzictwa UNESCO. Park
+                    znajduje się w centralnej części Chorwacji, pomiędzy miastami Zagrzeb i Zadar. Park zajmuje około
+                    296,85 km². Plitwickie Jeziora charakteryzują się malowniczym krajobrazem składającym się z jezior,
+                    wodospadów, kaskad i lasów. Park składa się z 16 połączonych jezior, które dzielą się na górne i
+                    dolne. Jeziora są podzielone przez naturalne tamy z trawertynu, osadzanego przez działanie wody z
+                    minerałami. Znajdują się na wyższych wysokościach, otoczone gęstymi lasami. Są większe i bardziej
+                    rozległe. Położone w głębszych dolinach, są mniejsze i bardziej zalesione. Park jest znany z
+                    licznych wodospadów, z największym Veliki Slap (Wielki Wodospad), który ma wysokość 78 metrów. Park
+                    jest pokryty gęstymi lasami bukowymi, jodłowymi i sosnowymi. Występuje tu także wiele gatunków
+                    roślin wodnych i kwitnących roślin. Plitwickie Jeziora są domem dla wielu gatunków zwierząt, w tym
+                    wilków, niedźwiedzi brunatnych, rysi, dzików, jeleni, wydr oraz licznych gatunków ptaków, ryb i
+                    owadów. Park oferuje liczne szlaki turystyczne i ścieżki spacerowe, które prowadzą przez malownicze
+                    krajobrazy jezior i wodospadów. Trasy są dobrze oznakowane i dostosowane do różnych poziomów
+                    trudności. Park oferuje rejsy elektrycznymi łodziami po największym jeziorze Kozjak, które łączy
+                    górne i dolne jeziora. Specjalne kolejki elektryczne przewożą turystów po parku, ułatwiając dostęp
+                    do odleglejszych części. W parku znajduje się wiele punktów widokowych, z których można podziwiać
+                    panoramę jezior i wodospadów. Park Narodowy Plitwickie Jeziora został utworzony w 1949 roku, co
+                    czyni go jednym z najstarszych parków narodowych w południowo-wschodniej Europie. W 1979 roku park
+                    został wpisany na Listę Światowego Dziedzictwa UNESCO z powodu jego wyjątkowej przyrodniczej
+                    wartości. Park jest chroniony przez ścisłe przepisy mające na celu zachowanie jego naturalnego
+                    piękna i ekosystemu. Wprowadzono liczne inicjatywy ekologiczne, aby minimalizować wpływ turystyki na
+                    środowisko. Duża liczba turystów odwiedzających park stanowi wyzwanie dla jego ochrony. Zarządzanie
+                    ruchem turystycznym i minimalizacja wpływu na środowisko są kluczowymi priorytetami. Park prowadzi
+                    liczne programy badawcze i ochronne, mające na celu monitorowanie i zachowanie unikalnych
+                    ekosystemów jezior i lasów. Park jest otwarty przez cały rok, jednak godziny otwarcia i dostępność
+                    niektórych atrakcji mogą się różnić w zależności od sezonu. Park Narodowy Plitwickie Jeziora to
+                    jedno z najbardziej malowniczych miejsc w Chorwacji i w całej Europie. Jego niezwykłe jeziora,
+                    wodospady i bogata bioróżnorodność czynią go wyjątkowym celem podróży dla miłośników przyrody i
+                    turystyki pieszej.
                 </p>
             </div>
 
@@ -109,68 +119,80 @@
 
         <div class="article-row">
             <div class="picture">
-                <img src="img/Geirangerfjord.webp" alt="">
+                <img src="img/Geirangerfjord.webp" alt="Geirangerfjord, Norwegia">
             </div>
 
             <div class="picture">
-                <h4>Geirangerfjord, Norwegia </h4>
+                <h4>Geirangerfjord, Norwegia</h4>
                 <hr>
                 <p class="picture-text">
-                    Jeden z najpiękniejszych fiordów Norwegii, słynący z głębokich wód, stromych klifów i licznych
-                    wodospadów, takich jak Wodospady Siedmiu Sióstr. Geirangerfjord to prawdziwy klejnot wśród
-                    Norweskich Fiordów. Geirangerfjord rozciąga się na długość ok. 15 kilometrów między miejscowościami
-                    Hellesylt oraz Geiranger. Jest on odnogą fiordu Storfjorden, który wpada do morza. Geirangerfjord ma
-                    od zaledwie od 600 do 1500 metra szerokości. Natomiast góry go otaczające mają aż 1500 metrów
-                    wysokości, przez co patrząc na niego, możemy poczuć się, jakbyśmy wpatrywali się w namalowany obraz.
-                    W 2005 roku został wpisany na Listę Światowego Dziedzictwa UNESCO.
-                    Patrząc na fiord z lotu ptaka przypomina on literę „S”.
-                    Podziwianie fiordu najlepiej zacząć od rejsu stateczkiem z miejscowości Hellesylt do Geiranger, rejs
-                    daje wspaniałe możliwości do podziwiania stromych zboczy otaczających fiord wraz z licznymi
-                    wodospadami
-                    spływającymi z ich zboczy. Na szczególną uwagę zasługują wodospady: De Syv Søstre (Siedem Sióstr),
-                    Frairen (Zalotnik) i Brudesløret (Ślubny Welon). Geirangerfjord jest na tyle głęboki, że mogą do
-                    niego wpływać pełnomorskie statki. Latem prawie każdego dnia można spotkać przycumowany jakiś statek
-                    wycieczkowy. Stosunkowo niedawno bo jeszcze przed wojną w farmach umiejscowionych na stromych,
-                    wąskich występach mieszkali ludzie. Będąc w Geiranger często słyszy się historie o dzieciach
-                    przywiązywanych do palików, aby podczas zabawy nie spadły z urwiska. Ostatni mieszkańcy tych farm
-                    wyprowadzili się stąd dopiero w 1961 roku. Najlepszy widok na fiord rozpościera się ze szczytu góry
-                    Dalsnibba (blisko 1500 m wysokości) górującej nad całą okolicą.
-
+                    Geirangerfjord to jeden z najpiękniejszych i najbardziej znanych fiordów w Norwegii, wpisany na
+                    Listę Światowego Dziedzictwa UNESCO. Geirangerfjord znajduje się na zachodnim wybrzeżu Norwegii, w
+                    regionie Møre og Romsdal. Fiord ma około 15 km długości. Jest to typowy fiord uformowany przez
+                    erozję lodowcową, z wysokimi, stromymi zboczami, wąskim korytem i głębokimi wodami. Geirangerfjord
+                    słynie z licznych imponujących wodospadów, w tym: Syv Søstre (Siedem Sióstr): Zespół siedmiu
+                    wodospadów, z których najwyższy ma wysokość około 250 metrów. Dei Sju Systre (Siedem Sióstr): Inna
+                    grupa siedmiu wodospadów, tworzących malowniczy widok nad fiordem. Brudesløret (Welon Panny Młodej):
+                    Wodospad spadający z wysokości około 300 metrów, przypominający welon. Otaczające fiord góry
+                    sięgające nawet 1,700 metrów n.p.m., tworzące spektakularne tło dla krajobrazu fiordu. Znajdują się
+                    tu liczne punkty widokowe, z których można podziwiać malownicze krajobrazy fiordu i okolicznych gór.
+                    Wzdłuż fiordu znajdują się tradycyjne norweskie gospodarstwa, które często są nadal zamieszkiwane
+                    przez miejscowych mieszkańców. Okolice Geirangerfjord mają bogatą historię, związaną z tradycyjnymi
+                    praktykami rolniczymi, rybackimi i górniczymi. Jednym z głównych sposobów zwiedzania Geirangerfjord
+                    jest rejs statkiem wycieczkowym, który umożliwia podziwianie fiordu z perspektywy wody. Park
+                    Narodowy Jostedalsbreen oferuje liczne szlaki turystyczne i wędrówki, które prowadzą przez
+                    malownicze krajobrazy i zapewniają wspaniałe widoki na fiord. Trollstigen, czyli "Droga Trolli", to
+                    kręta i stroma droga, prowadząca przez góry i zapewniająca spektakularne widoki na fiord i okoliczne
+                    krajobrazy. Geirangerfjord został wpisany na Listę Światowego Dziedzictwa UNESCO w 2005 roku ze
+                    względu na swoją niezwykłą przyrodę i krajobrazy. Parki Narodowe Jostedalsbreen i Reinheimen chronią
+                    okoliczne tereny przed nadmierną urbanizacją i rozwojem, dbając o zachowanie dzikiej przyrody i
+                    ekosystemów. Najlepszą porą do odwiedzenia Geirangerfjord jest lato, kiedy warunki pogodowe są
+                    najkorzystniejsze, a większość atrakcji turystycznych jest otwarta. Fiord jest dobrze skomunikowany
+                    z większymi miastami Norwegii, a dostępne są również usługi przewozowe i wycieczkowe. W okolicach
+                    fiordu znajdują się hotele, pensjonaty i kempingi, oferujące zakwaterowanie dla turystów. Ze względu
+                    na popularność Geirangerfjord, zaleca się wcześniejsze rezerwacje, zwłaszcza w okresie letnim.
+                    Geirangerfjord to niezwykłe miejsce o ujmującej naturalnej urodzie, które przyciąga turystów z
+                    całego świata. Jego imponujące wodospady, malownicze krajobrazy i bogata historia sprawiają, że jest
+                    to jedna z najbardziej ikonicznych atrakcji Norwegii.
                 </p>
             </div>
         </div>
 
         <div class="article-row">
             <div class="picture">
-                <img src="img\sarek.jpg" alt="">
+                <img src="img\sarek.jpg" alt="Park Narodowy Sarek, Szwecja">
             </div>
 
             <div class="picture">
-                <h4>Park Narodowy Sarek, Szwecja </h4>
+                <h4>Park Narodowy Sarek, Szwecja</h4>
                 <hr>
                 <p class="picture-text">
-                    Park Narodowy Sarek, choć jest najstarszym oficjalnie utworzonym parkiem narodowym w całej Europe,
-                    to spośród innych wyróżnia się zdecydowanie tym, że człowiek ma niewielki wpływ na jego obecny
-                    krajobraz. Na wyznaczonym w 1909 roku obszarze ciężko bowiem zobaczyć jakąkolwiek działalność
-                    antropogeniczną. Oprócz określonych szlaków turystycznych, po których można się poruszać, znajduje
-                    się tam niewielka liczba dopasowanych do panoramy parku schronisk. Jest to wręcz idealnie
-                    miejsce (w skali całej Europy) dla osób, które potrzebują odpocząć od zgiełku cywilizacji i nasycić
-                    się czystym pięknem przyrody. Przede wszystkim jest to jednak prawdziwy raj dla miłośników
-                    wspinaczki górskiej. Na terenie parku narodowego znajduje się ponad dwieście szczytów o wysokości
-                    powyżej 1800 m n.p.m., co jeśli dodamy niesamowity krajobraz rozciągający się z wierzchołków
-                    może przynieść niezapomniane wrażenia i doświadczenia dla tych, którzy pokonają wysokości. Najwyższa
-                    z gór Mount Sarek, liczy sobie 2089 m n.p.m. i jest drugim najwyższym szczytem górskim w Szwecji.
-                    Widok z góry na dolinę Rapadalen musi, bez wątpienia, zapierać dech w piersiach. Jedną z głównych
-                    przyczyn, dla których turyści postanawiają przyjechać na północ Skandynawii jest malownicza zorza
-                    polarna. Z terenu Parku Narodowego Sarek bez najmniejszych problemów, zwłaszcza podczas nocnego
-                    biwakowania, można dostrzec to osobliwe i niesamowite dzieło natury. Wrażenia, jakie zostawi po
-                    sobie ten świetlny spektakl na niebie na pewno pozostaną z turystą do końca życia…
-                    Park Narodowy Sarek graniczy z dwoma innymi parkami narodowymi Szwecji od zachodu z Parkiem
-                    Narodowym Padjelanta, a od północy z Stora Sjöfallet. Jeśli więc dla kogoś sam park Sarek byłby
-                    niewystarczający dla przeżycia przygody, to tuż obok dostępne do eksploracji są dwa kolejne!
-                    Zdecydowanie najpiękniejszą porą roku do odwiedzenia wspomnianego obszaru jest zima, jednak trzeba
-                    mieć na uwadze zwiększone ryzyko lawin śnieżnych. Dla osób niedoświadczonych zwiedzanie parku zaleca
-                    się w towarzystwie przewodnika, a naprawdę warto odwiedzić tę część Europy!
+                    Park Narodowy Sarek, położony w północnej Szwecji, to jedno z najdzikszych i najbardziej niezwykłych
+                    miejsc w Europie. Sarek leży w północnej części Szwecji, w regionie Lappland, na północ od koła
+                    podbiegunowego. Park ma powierzchnię około 1,970 km². Jest to teren górzysty i trudno dostępny, z
+                    licznymi szczytami górskimi, lodowcami, rzekami i jeziorami. Pomimo surowych warunków klimatycznych,
+                    w parku występuje różnorodność roślinności, w tym tundra, lasy iglaste, krzewy arktyczne i rośliny
+                    alpejskie. Sarek jest domem dla wielu gatunków dzikich zwierząt, takich jak łosie, renifery,
+                    niedźwiedzie brunatne, rysie, wilki, oraz ptaki drapieżne, w tym orły. Park obejmuje część
+                    szwedzkiej części Skandynawów, co oznacza, że jest bogaty w wysokie góry, w tym liczne szczyty
+                    przekraczające 2,000 metrów n.p.m. Sarek ma kilka dużych lodowców, które formują malownicze doliny i
+                    doliny lodowcowe. Liczne rzeki i jeziora przecinają teren parku, tworząc malownicze krajobrazy i
+                    oferując możliwości wędkarstwa i kajakarstwa. Park Narodowy Sarek przyciąga miłośników trekkingu i
+                    wspinaczki górskiej ze względu na swoje trudne i dzikie tereny. Istnieje wiele szlaków pieszych, ale
+                    większość z nich nie jest oznakowana, co sprawia, że wymagają doświadczenia i samodzielności. Park
+                    oferuje możliwość obserwacji dzikiej przyrody w jej naturalnym środowisku, co czyni go atrakcyjnym
+                    miejscem dla miłośników ekoturystyki i fotografii przyrodniczej. W parku istnieją schroniska
+                    turystyczne i miejsca na biwakowanie, ale większość terenów parku jest dzika, więc konieczne jest
+                    wyposażenie w odpowiedni sprzęt i zapasy. Sarek jest chroniony jako park narodowy od 1909 roku, a
+                    jego celem jest ochrona dzikiej przyrody i ekosystemów oraz zachowanie ich dla przyszłych pokoleń.
+                    Zarządzanie parkiem opiera się na zasadach zrównoważonego rozwoju, dążąc do minimalizowania wpływu
+                    działalności ludzkiej na środowisko i promowania harmonii między ludźmi a naturą. Wprowadzanie
+                    środków kontrolnych, aby zapewnić, że rozwój turystyki nie zagraża dzikiej przyrodzie i spokoju
+                    parku. Sarek, podobnie jak inne obszary arktyczne, jest szczególnie narażony na zmiany klimatyczne,
+                    co może wpływać na jego ekosystemy i krajobrazy. Park Narodowy Sarek oferuje niezwykłe doświadczenia
+                    dla tych, którzy szukają dzikiej przyrody, pięknych krajobrazów i przygód na szlakach górskich. Jego
+                    trudno dostępne tereny i surowe warunki klimatyczne sprawiają, że jest to idealne miejsce dla
+                    miłośników natury, którzy szukają prawdziwej dzikości i odosobnienia.
                 </p>
             </div>
         </div>
