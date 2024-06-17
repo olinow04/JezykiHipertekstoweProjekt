@@ -6,10 +6,7 @@
     <title>Niezwykłe miejsca przyrodnicze</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Oliwier Nowak">
-    <meta name="description" content="Tu zakupisz wszystkie licencje programów" />
-    <meta name="keywords" content="html5, strony, internetowe" />
-
-    <link rel="icon" type="image/x-icon" href="img\favicon.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -21,7 +18,7 @@
     <script src="https://kit.fontawesome.com/c1354519af.js" crossorigin="anonymous"></script>
     <script src="js/showToast.js"></script>
     <script src="js/setCurrentSubpage.js"></script>
-    <script src="js/slajd.js"></script>
+    <script src="js/slajd.js"></script> <!-- skrypt do slajdera w galerii zdjec !-->
     <?php include 'php/pobierzLiczbaOdwiedzin.php'; ?>
 </head>
 
@@ -56,17 +53,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-conf">
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="index.php">Europa</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="azja.php">Azja</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="afryka.php">Afryka</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="australia.php">Australia</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ameryka_polnocna.php">Ameryka
+                    <a class="btn btn-success me-2 my-2 nav-link" href="index.php">Europa</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="azja.php">Azja</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="afryka.php">Afryka</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="australia.php">Australia</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="ameryka_polnocna.php">Ameryka
                         Północna</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ameryka_poludniowa.php">Ameryka
+                    <a class="btn btn-success me-2 my-2 nav-link" href="ameryka_poludniowa.php">Ameryka
                         Południowa</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ksiega_gosci.php">Księga gości</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="ksiega_gosci.php">Księga gości</a>
                 </div>
             </div>
+        </div>
     </nav>
 
     <main class="example-background">
@@ -125,13 +123,18 @@
         </div>
         <div class="carousel-controls">
             <button id="prevBtn" class="carousel-control" aria-label="Poprzedni">
+                <!-- Przycisk do przewijania do poprzedniego elementu !-->
                 <span class="carousel-control-icon" aria-hidden="true">&lsaquo;</span>
+                <!-- Ikona przycisku !-->
             </button>
             <button id="nextBtn" class="carousel-control" aria-label="Następny">
+                <!-- Przycisk do przewijania do następnego elementu !-->
                 <span class="carousel-control-icon" aria-hidden="true">&rsaquo;</span>
+                <!-- Ikona przycisku !-->
             </button>
         </div>
         <div class="carousel-thumbnails">
+            <!-- Kontener dla miniaturek, które umożliwiają bezpośrednie przejście do wybranego elementu karuzeli. !-->
             <img src="img/jezioro_hillier.jpg" class="thumbnail active" data-slide-to="0"
                 alt="Jezioro Hillier, Wyspa Middle">
             <img src="img/rafa_koralowa.jpg" class="thumbnail" data-slide-to="1"

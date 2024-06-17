@@ -6,10 +6,7 @@
     <title>Niezwykłe miejsca przyrodnicze</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Oliwier Nowak">
-    <meta name="description" content="Tu zakupisz wszystkie licencje programów" />
-    <meta name="keywords" content="html5, strony, internetowe" />
-
-    <link rel="icon" type="image/x-icon" href="img\favicon.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -56,22 +53,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-conf">
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="index.php">Europa</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="azja.php">Azja</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="afryka.php">Afryka</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="australia.php">Australia</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ameryka_polnocna.php">Ameryka
+                    <a class="btn btn-success me-2 my-2 nav-link" href="index.php">Europa</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="azja.php">Azja</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="afryka.php">Afryka</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="australia.php">Australia</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="ameryka_polnocna.php">Ameryka
                         Północna</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ameryka_poludniowa.php">Ameryka
+                    <a class="btn btn-success me-2 my-2 nav-link" href="ameryka_poludniowa.php">Ameryka
                         Południowa</a>
-                    <a type="nav-link" class="btn btn-success me-2 my-2" href="ksiega_gosci.php">Księga gości</a>
+                    <a class="btn btn-success me-2 my-2 nav-link" href="ksiega_gosci.php">Księga gości</a>
                 </div>
             </div>
+        </div>
     </nav>
 
     <section class="container text-center">
         <h1 class="mt-5">Księga Gości</h1>
         <h5 class="mt-5">Dodaj swój wpis:</h5>
+        <!-- Formularz dodawania wpisu -->
         <form id="ksiega-wpis" class="mt-4" onsubmit="return wyslijFormularz()">
             <div class="row row-cols-2">
                 <div class="col">
@@ -96,12 +95,14 @@
             </div>
         </form>
 
+        <!-- Kontener na komunikaty -->
         <div id="komunikaty"></div>
 
         <h5 class="mt-5">Aktualne wpisy:</h5>
+        <!-- Tabela wyświetlająca aktualne wpisy -->
         <div class="table-responsive">
             <table class="table table-bordered border-success table-success table-striped">
-                <thead class=" thead-dark">
+                <thead class="thead-dark">
                     <tr>
                         <th>Imię</th>
                         <th>Nazwisko</th>
@@ -115,6 +116,7 @@
             </table>
         </div>
     </section>
+
 
     <footer class="bg-dark">
         <div class="container text-center">
